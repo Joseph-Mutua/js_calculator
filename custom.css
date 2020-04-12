@@ -45,3 +45,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*Custom Styles*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    grid-template-rows: repeat(5, 18%);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+}
